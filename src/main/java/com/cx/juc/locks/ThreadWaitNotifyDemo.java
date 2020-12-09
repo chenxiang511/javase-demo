@@ -85,6 +85,7 @@ class ResourceB{//资源类，使用ReentrantLock
         }
     }
 }
+
 /**
  * 1 高聚合低耦合的前提下，线程操作资源类
  * 2 判断/干活、通知

@@ -8,6 +8,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @Date 2020/12/2 13:01
  * 可重入锁:ReentrantLock 实现三个线程抢票
  **/
+
 class Ticket{//资源类
     private int number = 300;
     Lock lock = new ReentrantLock();
