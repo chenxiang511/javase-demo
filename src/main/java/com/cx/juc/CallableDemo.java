@@ -1,4 +1,4 @@
-package com.cx.juc.locks;
+package com.cx.juc;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;

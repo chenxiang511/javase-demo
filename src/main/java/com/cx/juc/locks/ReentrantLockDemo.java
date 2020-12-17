@@ -10,13 +10,14 @@ import java.util.concurrent.locks.ReentrantLock;
  **/
 
 class Ticket{//资源类
-    private int number = 300;
+    private int number = 400;
     Lock lock = new ReentrantLock();
     void sale(){
         lock.lock();
         try {
             if (number>0) {
-                System.out.println(Thread.currentThread().getName()+":当前剩余"+number--+"张");
+                number--;
+                System.out.println(Thread.currentThread().getName()+":当前剩余"+number+"张");
             }
         } catch (Exception e) {
             e.printStackTrace();
