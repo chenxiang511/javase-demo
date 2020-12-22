@@ -8,7 +8,6 @@ import java.util.concurrent.CyclicBarrier;
  *  创建一个新的 CyclicBarrier ,当给定数量的线程(线程)等待时,它将跳闸,当屏障跳闸时执行给定的屏障动作,由最后一个进入屏障的线程执行
  **/
 
-
 public class CyclicBarrierDemo {
 
     public static void main(String[] args) {
