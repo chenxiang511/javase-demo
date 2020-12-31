@@ -5,7 +5,7 @@ import java.util.concurrent.CountDownLatch;
 /**
  * @Author cx
  * @Date 2020/12/15 16:20
- * 计数器
+ * 闭锁（计数器）
  * 实例：模拟班级下课，所有同学离开后，班长关门走人
  **/
 

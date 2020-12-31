@@ -6,14 +6,14 @@ import java.util.concurrent.TimeUnit;
 /**
  * @Author cx
  * @Date 2020/12/15 16:26
- * 信号量
+ * 信号量锁
  * 示例：模拟抢车位
  **/
 
 public class SemaphoreDemo {
 
     public static void main(String[] args) {
-        Semaphore semaphore = new Semaphore(2);//初始信号量
+        Semaphore semaphore = new Semaphore(2);//初始信号量,默认许可数
         for (int i=0;i<6;i++){
             new Thread(() -> {
                 try {
